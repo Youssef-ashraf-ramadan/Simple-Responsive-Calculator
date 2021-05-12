@@ -1,0 +1,52 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>JavaSctipt Calculator</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <img src="img/3c1e6253826f6a009b2a02559b800753.jpg">
+  <div class="container">
+    <form>
+      <div class="display">
+        <input type="text" placeholder="0" class="input" name="displayresult" />
+      </div>
+      <div class="buttons">
+        <div class="row">
+          <input type="button" value="7"  onClick="calcu(value)">
+          <input type="button" value="8"  onClick="calcu(value)">
+          <input type="button" value="9"  onClick="calcu(value)">
+          <input type="button" value="+"  onClick="calcu(value)">
+        </div>
+
+        <div class="row">
+          <input type="button" value="4"  onClick="calcu(value)">
+          <input type="button" value="5"  onClick="calcu(value)">
+          <input type="button" value="6"  onClick="calcu(value)">
+          <input type="button" value="-"  onClick="calcu(value)">
+        </div>
+
+        <div class="row">
+          <input type="button" value="1"  onClick="calcu(value)">
+          <input type="button" value="2"  onClick="calcu(value)">
+          <input type="button" value="3"  onClick="calcu(value)">
+          <input type="button" value="/"  onClick="calcu(value)">
+        </div>
+        <div class="row">
+          <input type="button" value="0"  onClick="calcu(value)">
+          <input type="button" value="."  onClick="calcu(value" )>
+          <input type="button" value="*"  onClick="calcu(value)">
+          <input type="button" value="="  onClick="displayresult.value=eval(displayresult.value)">
+        <a href="index.html"> <input type="button" value="Clear" name="clear"  class="red"> </a>
+          
+        </div>
+      </div>
+
+    </form>
+  </div>
+  <script src="js/result.js"></script>
+</body>
+
+</html>
